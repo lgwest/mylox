@@ -95,7 +95,7 @@ public class GenerateAST {
         for (String field : fields) {
             writer.println("    final " + field + ";");
         }
-        
+
         writer.println("  }");
     }
 }
